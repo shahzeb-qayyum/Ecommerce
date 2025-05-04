@@ -18,6 +18,8 @@
   <ItemGroup>
     <ProjectReference Include="..\ECommerce.DataAccessLayer\ECommerce.DataAccessLayer.csproj" />
     <ProjectReference Include="..\ECommerce.Domain\ECommerce.Domain.csproj" />
+    <ProjectReference Include="ECommerce.DataAccessLayer\ECommerce.DataAccessLayer.csproj" />
+    <ProjectReference Include="ECommerce.Domain\ECommerce.Domain.csproj" />
   </ItemGroup>
 
 </Project>

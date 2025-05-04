@@ -11,6 +11,7 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddScoped<ICustomer, CustomerServices>();
 builder.Services.AddScoped<IEmployee, EmployeeServices>();
 builder.Services.AddScoped<ICategoryService, CategoryService>();
+builder.Services.AddScoped<IProductService, ProductService>();
 
 
 
